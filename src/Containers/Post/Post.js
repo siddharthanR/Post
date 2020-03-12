@@ -6,9 +6,9 @@ class Post extends React.Component {
     render() {
         return(
             <div>
-                <TextField id={"titleId"} name={"title"} placeholder={"Title goes here"}/>
-                <TextField id={"postId"} name={"post"} placeholder={"Post goes here"}/>
-                <Button name={"Submit"}/> 
+                <TextField type={"text"} id={"titleId"} name={"title"} placeholder={"Title goes here"}/>
+                <TextField type={"text"} id={"postId"} name={"post"} placeholder={"Post goes here"}/>
+                <Button type={"submit"} name={"Submit"}/> 
             </div>
         )
     }

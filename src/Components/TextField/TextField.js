@@ -4,7 +4,7 @@ import './TextField.css'
 export default (props) => {
     return(
         <div>
-            <input type="text" id={props.id} name={props.name} placeholder={props.placeholder} />
+            <input type={props.type} id={props.id} name={props.name} placeholder={props.placeholder} />
         </div>
     )
 }

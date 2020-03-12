@@ -4,7 +4,7 @@ import './Button.css'
 export default (props) => {
     return(
         <div>
-            <input type="submit" id={props.id} name={props.name} placeholder={props.placeholder}/>
+            <input type={props.type} name={props.name}/>
         </div>
     )
 }
